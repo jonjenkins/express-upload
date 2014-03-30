@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Upload Example</title>
+    <style type="text/css" media="screen">
+        #progress {
+            width: 500px;
+            border: 1px solid black;
+            position: relative;
+            padding: 3px;
+        }
+
+        #percent {
+            position: absolute;
+            left: 50%;
+        }
+
+        #bar {
+            height: 20px;
+            background-color: green;
+            width: 0%;
+        }
+    </style>
+</head>
+<body>
+<form id="uploadForm"
+      enctype="multipart/form-data"
+      action="/api/upload"
+      method="post">
+    <input type="file" id="userFileInput" name="userFile"/>
+</form>
+<span id="status"></span>
+
+<div id="progress">
+    <span id="percent">0%</span>
+
+    <div id="bar"></div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="./js/jquery.form.js"></script>
+<script src="./js/upload.js"></script>
+</body>
+</html>

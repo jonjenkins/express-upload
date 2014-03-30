@@ -1,0 +1,20 @@
+# .gitignore
+.DS_Store
+
+# Node.js #
+###########
+node_modules/
+
+# IDE #
+#######
+*.iml
+.idea
+
+# AWS #
+#######
+.elasticbeanstalk/
+
+# uploads #
+###########
+uploads/
+static/uploads/

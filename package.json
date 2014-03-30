@@ -1,0 +1,13 @@
+{
+    "name": "express-upload",
+    "description": "express-upload: node.js, express, multer, html5 progress upload example",
+    "version": "0.0.1",
+    "engines": {
+        "node": ">= 0.10.x"
+    },
+    "private": true,
+    "dependencies": {
+        "express": "3.x",
+        "multer": "0.x"
+    }
+}
