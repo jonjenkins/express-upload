@@ -13,8 +13,3 @@ node_modules/
 # AWS #
 #######
 .elasticbeanstalk/
-
-# uploads #
-###########
-uploads/
-static/uploads/
